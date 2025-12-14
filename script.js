@@ -1,4 +1,4 @@
-console.log('Hello!');
+
 // is an element in the screen? if so then...
 function isInViewport(element) {
   const rect = element.getBoundingClientRect();
