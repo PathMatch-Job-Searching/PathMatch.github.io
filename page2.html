@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PathMatch Career Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="backend.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page2.html" aria-current="page">Career Quiz</a>
+      <a href="/aboutus.html">About Us</a>
+      <a href="/contactus.html">Contact Us</a>
+    </nav>
+    <main>
+    <div class="section visible" id="section1">
+      <h1>Welcome to the PathMatch Career Quiz!</h1>
+      <form id="quiz">
+        <p>Full Name:</p>
+        <input type="text" name="name" required><br><br>
+    
+        <div>
+          <p>1. How long do you want to work?</p>
+          <label><input type="radio" name="q1" value="part-time"> Part time</label><br>
+          <label><input type="radio" name="q1" value="full-time"> Full time</label>
+          <br>
+          <br>
+        </div>
+        <div>
+          <p>2. Do you prefer a work environment that is fast-paced and high-pressure or measured and calm?</p>
+          <label><input type="radio" name="q2" value="fast-paced"> Fast-paced</label><br>
+          <label><input type="radio" name="q2" value="calm"> Calm</label>
+          <br>
+          <label><input type="radio" name="q2" value="mix"> Mix of both</label>
+          <br>
+          <br>
+          
+        </div>
+        <div>
+        <p>3. Do you prefer to work mostly independently or as part of a close-knit team?</p>
+        <label><input type="radio" name="q3" value="alone"> Independently</label><br>
+        <label><input type="radio" name="q3" value="together"> As a team</label>
+        <br>
+        
+        <br>
+        <div>
+        <p>4. Which work setting do you find most appealing?</p>
+        <label><input type="radio" name="q4" value="outside"> Outside or frequently traveling</label><br>
+        <label><input type="radio" name="q4" value="office"> An office or similar indoor location</label>
+        <br>
+        <label><input type="radio" name="q4" value="lab"> A lab, studio, or other specialized workplace</label>
+        <br>
+        <br>
+
+        <br>
+        <div>
+        <p>5. Where would you like to work?</p>
+        <label><input type="radio" name="q5" value="midwest"> In the Midwest </label><br>
+        <label><input type="radio" name="q5" value="south"> In the South </label>
+        <br>
+        <label><input type="radio" name="q5" value="west"> On the West Coast</label>
+        <br>
+        <label><input type="radio" name="q5" value="northeast"> Up in the Northeast <label>
+        <br>
+        <br>
+        
+      </div>
+      </div>
+        <hr>
+   
+        <button type="submit">Submit & Find Jobs</button>
+    
+ 
+      </form>
+    </div>
+    </main>
+  </body>
+</html>
